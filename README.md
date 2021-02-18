@@ -8,13 +8,12 @@ Preliminary Steps:
 -Make project folder
 -Run "npm install"
 
-1. Install Expo Cli: npx expo-cli init 'project name'
+1. Install Expo Cli: npx expo-cli init 'project name' --npm
 2. Choose Blank
 3. Change {name} to name of project
 4. Run "cd 'project name'"
 5. Run "npm install react-navigation"
 6. Run "npm start"
-
 
 Setting Up JSON Server:
 1. In workspace, above project, run "mkdir jsonserver"
@@ -28,7 +27,6 @@ Setting Up JSON Server:
 9. Run "npm run tunnel" in json path in a different terminal
 10. Add ngrok forwarding link to jsonServer.js (update each time) in main app
 11. Open another terminal in main project and run "npm install axios"
-12. 
 
 ------------------------------------------------------------------------
 
