@@ -28,6 +28,15 @@ Setting Up JSON Server:
 10. Add ngrok forwarding link to jsonServer.js (update each time) in main app
 11. Open another terminal in main project and run "npm install axios"
 
+For accessing any server using ngrok:
+npm install -g ngrok
+
+For starting up full tracker app:
+1. Run "npm start" in one terminal under the project
+2. Run "npm run dev" in a different terminal under tracker-server
+3. Run "ngrok http 3000" in a different third terminal under the project 
+4. Replace baseURL in tracker.js with new ngrok URL 
+
 ------------------------------------------------------------------------
 
 React js template (plus a little excess):
@@ -51,6 +60,10 @@ export default SearchScreen;
 
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
+
+import { createAppContainer, createSwitchNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
 
 ------------------------------------------------------------------------
 
@@ -97,6 +110,7 @@ Resources:
 Free hosted mongodb: cloud.mongodb.com
 Postman: getpostman.com
 Json web token: https://jwt.io/
+React Native Elements: https://reactnativeelements.com/docs/overview
 
 ------------------------------------------------------------------------
 
