@@ -67,6 +67,17 @@ import { createBottomTabNavigator } from 'react-navigation-tabs';
 
 ------------------------------------------------------------------------
 
+Resources:
+
+Free hosted mongodb: cloud.mongodb.com
+Postman: getpostman.com
+Json web token: https://jwt.io/
+React Native Elements: https://reactnativeelements.com/docs/overview
+React Native Maps: npx expo-cli install react-native-maps
+Expo Location for Tracking: npx expo-cli install expo-location
+
+------------------------------------------------------------------------
+
 Track-server start up (tracker app):
 
 npm run dev
@@ -102,15 +113,6 @@ gcoOP0_jkeAFVR6lx0dr8_vt0Kr_eFnndD4vEcfCNFBBSTxdd5XQ8vJEX3kVPQo1bynejJr3UIqFxrDD
 VS Code Git authentication token:
 
 vscode://vscode.github-authentication/did-authenticate?windowid=1&code=d6429a6c005643579661&state=194470aa-e03e-4c3a-a2e4-f3e204cf1cf7
-
-------------------------------------------------------------------------
-
-Resources:
-
-Free hosted mongodb: cloud.mongodb.com
-Postman: getpostman.com
-Json web token: https://jwt.io/
-React Native Elements: https://reactnativeelements.com/docs/overview
 
 ------------------------------------------------------------------------
 
