@@ -36,6 +36,9 @@ For starting up full tracker app:
 2. Run "npm run dev" in a different terminal under tracker-server
 3. Run "ngrok http 3000" in a different third terminal under the project 
 4. Replace baseURL in tracker.js with new ngrok URL 
+5. Test user to sign in is:
+    -Email: test1@test.com
+    -Password: mypassword
 
 ------------------------------------------------------------------------
 
